@@ -1,0 +1,287 @@
+/* =========================
+   BASIC
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #304535;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        to bottom,
+        #e9eee5,
+        #e4e8d8,
+        #ddd8c0,
+        #d4bf98
+    );
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+
+    font-size: 65px;
+    font-weight: normal;
+
+    line-height: 0.9;
+
+    margin: 20px 0;
+}
+
+.hero h1 i {
+    color: #70875f;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #536456;
+}
+
+.small-text {
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    color: #687767 !important;
+}
+
+.scroll {
+    margin-top: 70px;
+    font-size: 14px !important;
+}
+
+
+/* =========================
+   GENERAL SECTION
+========================= */
+
+.section {
+    height: 100vh;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+
+    left: 10%;
+    top: 30%;
+
+    width: 320px;
+
+    z-index: 3;
+}
+
+.number {
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    color: #71866f;
+}
+
+.text h2 {
+    font-family: Georgia, serif;
+
+    font-size: 50px;
+    font-weight: normal;
+
+    line-height: 1;
+
+    margin: 15px 0 25px;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   SEED
+========================= */
+
+.seed {
+    background: linear-gradient(
+        to bottom,
+        #d4bf98,
+        #cfb88d,
+        #c3aa7c,
+        #b3976d
+    );
+}
+
+.seed img {
+    position: absolute;
+
+    width: 260px;
+
+    right: 15%;
+    top: 30%;
+
+    z-index: 2;
+
+    mix-blend-mode: multiply;
+}
+
+
+/* =========================
+   SPROUT
+========================= */
+
+.sprout {
+    background: linear-gradient(
+        to bottom,
+        #b3976d,
+        #aaa77e,
+        #a9b990,
+        #a8c39d,
+        #9fba93
+    );
+}
+
+.sprout img {
+    position: absolute;
+
+    width: 350px;
+
+    right: 17%;
+    top: 20%;
+
+    z-index: 2;
+}
+
+
+/* =========================
+   YOUNG PLANT
+========================= */
+
+.plant {
+    background: linear-gradient(
+        to bottom,
+        #9fba93,
+        #aac49b,
+        #b9cda1,
+        #cbd2a6,
+        #d5d2a7
+    );
+}
+
+.plant img {
+    position: absolute;
+
+    width: 350px;
+
+    right: 15%;
+    bottom: 5%;
+
+    z-index: 2;
+}
+
+
+/* =========================
+   TREE
+========================= */
+
+.tree {
+    background: linear-gradient(
+        to bottom,
+        #d5d2a7,
+        #c4cda3,
+        #afc09b,
+        #93ad91,
+        #728d76
+    );
+}
+
+.tree img {
+    position: absolute;
+
+    width: 470px;
+
+    right: 12%;
+    bottom: 0;
+
+    z-index: 2;
+}
+
+
+/* =========================
+   FINAL FOREST
+========================= */
+
+.ending {
+    height: 100vh;
+
+    position: relative;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    color: white;
+}
+
+.forest {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-image:
+        linear-gradient(
+            rgba(30, 60, 42, 0.15),
+            rgba(20, 45, 35, 0.5)
+        ),
+        url("images/forest.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    /* Parallax effect */
+    background-attachment: fixed;
+}
+
+.ending-text {
+    position: relative;
+
+    z-index: 3;
+
+    padding-top: 30vh;
+}
+
+.ending-text h2 {
+    font-family: Georgia, serif;
+
+    font-size: 60px;
+
+    font-weight: normal;
+
+    line-height: 0.95;
+
+    margin: 20px 0;
+}
+
+.ending-text h2 i {
+    color: #e3c85b;
+}
+
+.ending-text p {
+    font-size: 18px;
+}
